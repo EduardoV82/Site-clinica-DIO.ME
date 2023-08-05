@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #04974b;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color:#19b765;
+    padding: 10px 20px 0px;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    display: block;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.menu img{
+    width: 50%;
+    align-items: center;
+    padding: 50px;
+}
+
+.header img{
+    background-size:cover ;
+    background-position: center;
+    min-height: 150px;
+    width: 100%;
+    height: 80vh;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+caption{
+    margin-bottom: 10px;
+}
+
+.form{
+    display: block;
+    justify-content: center;
+}
+
+fieldset{
+    background-color: #e7f8ee;
+    border-radius: 10px 10px 10px 10px;
+}
+
+label{
+    display: block;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    padding: 2px;
+    margin: 1px;
+}
+
+button[type="reset"]{
+    background-color: rgba(255, 0, 0, 0.849);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+button[type="submit"]{
+    background-color: rgba(3, 122, 33, 0.887);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+table{
+    margin-top: 20px;
+}
+
+table tr:nth-child(even){
+    background-color: thistle;
+}
+
+table th{
+    border: solid 1px #000;
+    color: #f1f1f1;
+}
+
+table thead{
+    background-color: #000;
+}
+
+.map{
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3{
+    color: #f1f1f1;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #04974b;
+    min-height: 150px;
+    color: #f1f1f1;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+}
+
+.rodape p u{
+    margin: 50px;
+}
